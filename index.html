@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Part 1: CSS3 Transitions and Animations -->
+  <h1>CSS3 Transitions and Animations</h1>
+  <div class="transition-box">Hover Me!</div>
+  <button class="transition-button">Click Me!</button>
+
+  <div class="animated-banner">Welcome to My Website!</div>
+  <div class="spinner"></div>
+
+  <!-- Part 2: JavaScript Functions -->
+  <h1>JavaScript Functions</h1>
+  <div>
+    <label for="width">Width:</label>
+    <input type="number" id="width" placeholder="Enter width">
+    <label for="height">Height:</label>
+    <input type="number" id="height" placeholder="Enter height">
+    <button onclick="calculateArea()">Calculate Area</button>
+    <p id="areaResult"></p>
+  </div>
+
+  <div>
+    <button onclick="toggleModal()">Toggle Modal</button>
+    <div id="modal" class="modal hidden">
+      <p>This is a modal!</p>
+    </div>
+  </div>
+
+  <!-- Part 3: Combining CSS Animations with JavaScript -->
+  <h1>Combining CSS Animations with JavaScript</h1>
+  <button onclick="triggerAnimation()">Trigger Animation</button>
+  <div id="animatedElement" class="animated-element">Animate Me!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
